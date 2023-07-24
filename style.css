@@ -1,0 +1,442 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #fafafb;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    font-size: 18px;
+
+    box-shadow: 0px 13px 34px -4px rgb(214, 206, 214);
+
+
+
+}
+
+.navbar-icons {
+
+    margin-top: -15px;
+    position: relative;
+    left: 25%;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+
+}
+
+img {
+    position: relative;
+    top: 8px;
+
+
+}
+
+.logo {
+    position: relative;
+    left: 50px;
+}
+
+.location {
+    position: relative;
+    left: 60px;
+    top: 30px;
+}
+
+.search:hover {
+    color: orange;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.offers:hover {
+    color: rgb(255, 153, 1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.help:hover {
+    color: rgb(255, 153, 1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    color: rgb(255, 153, 1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.cart-bag:hover {
+    color: rgb(255, 153, 1);
+    transition: 0.2s;
+}
+
+
+
+
+/* < !-- Main-hero-section --> */
+.best-offer {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 40px;
+    position: relative;
+    left: 13%;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+.scroll-menu {
+
+    width: 1007px;
+    height: 283px;
+    display: flex;
+    gap: 20px;
+    overflow-y: scroll;
+
+    position: relative;
+    left: 13%;
+
+
+
+
+}
+
+
+
+/* all-menu-items */
+
+.all-menu-items {
+    width: 1007px;
+    height: 205px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 25px;
+    position: relative;
+    left: 13%;
+
+}
+
+
+
+.your-mind {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+    left: 13%;
+    position: relative;
+}
+
+
+/* grid images */
+.resturants h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    left: 13%;
+    position: relative;
+    text-transform: capitalize;
+
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    left: 13%;
+    position: relative;
+}
+
+.filters p {
+    border: 0.5px solid rgb(182, 179, 179);
+    border-radius: 25px;
+    padding: 8px;
+    cursor: pointer;
+
+}
+
+
+
+/* Resturant menu */
+.boredr-line {
+    border: 0.5px solid rgb(230, 222, 222);
+    margin-top: 50px;
+    width: 980px;
+    position: relative;
+    left: 13%;
+}
+
+.resturants h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resturants p {
+    margin-bottom: 20px;
+}
+
+.resturant-menu {
+    width: 1007px;
+    height: 2841px;
+
+    left: 13%;
+    position: relative;
+
+}
+
+.menu-1,
+.menu-2,
+.menu-3,
+.menu-4,
+.menu-5,
+.menu-6,
+.menu-7,
+.menu-8,
+.menu-9,
+.menu-10,
+.menu-11,
+.menu-12,
+.menu-13,
+.menu-14,
+.menu-15,
+.menu-16 {
+    width: 209px;
+    height: 236px;
+
+
+}
+
+
+.menu-1 h3,
+.menu-2 h3,
+.menu-3 h3,
+.menu-4 h3,
+.menu-5 h3,
+.menu-6 h3,
+.menu-7 h3,
+.menu-8 h3,
+.menu-9 h3,
+.menu-10 h3,
+.menu-11 h3,
+.menu-12 h3,
+.menu-13 h3,
+.menu-14 h3,
+.menu-15 h3,
+.menu-16 h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.menu-1-title,
+.menu-2-title,
+.menu-3-title,
+.menu-4-title,
+.menu-5-title,
+.menu-6-title,
+.menu-7-title,
+.menu-8-title,
+.menu-9-title,
+.menu-10-title,
+.menu-11-title,
+.menu-12-title,
+.menu-13-title,
+.menu-12-title,
+.menu-13-title,
+.menu-14-title,
+.menu-15-title,
+.menu-16-title {
+
+    padding: 8px 15px;
+}
+
+
+.menu-1 img,
+.menu-2 img,
+.menu-3 img,
+.menu-4 img,
+.menu-5 img,
+.menu-6 img,
+.menu-7 img,
+.menu-8 img,
+.menu-9 img,
+.menu-10 img,
+.menu-11 img,
+.menu-12 img,
+.menu-13 img,
+.menu-14 img,
+.menu-15 img,
+.menu-16 img {
+    border-radius: 15px;
+}
+
+
+/* grid code  */
+
+.resturant-menu {
+
+    display: grid;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 0px;
+    height: 100%;
+
+
+}
+
+
+/* menu hover elment */
+.menu-1:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.menu-2:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+
+.menu-3:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+
+.menu-4:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+
+.menu-5:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.menu-6:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.menu-7:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.menu-8:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.menu-9:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.menu-10:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.menu-11:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.menu-12:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.menu-13:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.menu-14:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.menu-15:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.menu-16:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+/* Swiggy app promotion */
+.swiggy-app {
+    height: 105px;
+    background-color: #f0f0f5;
+
+}
+
+.download-title {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+
+
+}
+
+.download-title h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    width: 500px;
+    height: 64px;
+    text-transform: capitalize;
+
+}
+
+footer {
+    height: 300px;
+    background-color: black;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.company,
+.contact-us,
+.deliver-to,
+.legal {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+
+
+
+}
+
+.legal {
+    padding-bottom: 85px;
+}
